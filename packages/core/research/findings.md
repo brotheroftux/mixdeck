@@ -62,7 +62,7 @@
 
 6) **Provide an actual architectural scaffold for the daily problems an engineer might encounter.**
 
-    Mobx is allowing a lot of freedom in how you use it, in fact, a bit to much. Mixdeck's idea is to limit the amount of freedom available to the developer for the sake of a) lessening the burden of choice, b) guiding the developer in the direction of a more robust, effective and performant code. However, this should be achieved not by forcing a developer upon some predestined 100% correct path, but rather by providing a general sense of direction on how things should be done.
+    Mobx is allowing a lot of freedom in how you use it, in fact, a bit too much. Mixdeck's idea is to limit the amount of freedom available to the developer for the sake of a) lessening the burden of choice, b) guiding the developer in the direction of a more robust, effective and performant code. However, this should be achieved not by forcing a developer upon some predestined 100% correct path, but rather by providing a general sense of direction on how things should be done.
 
     One of the design elements serving such purpose would be an entity system, which would encapsulate state, state-derived evaluations and transactions upon said state in a single abstraction, allowing for OO-like expressiveness while not resorting to classes as a very verbose solution that might potentially lead to an overly complex architecture.
 
